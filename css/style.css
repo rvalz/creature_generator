@@ -10,15 +10,32 @@ body {
 	margin: auto;
 }
 
+#display-creature {
+    display: none; 
+    padding-top: 2em;
+    margin: 0 auto;
+    text-align: center;
+}
+
 h1, h2, h3, h4, h5, h6 {
 	color: #999999;
-	font-family: Georgia,serif;
+	font-family: Georgia, serif;
 	font-style: italic;
 	font-weight: normal;
 }
 
 input[type=text] {
 	width: 300px;
+}
+
+form, 
+p.error {
+	margin-left: 45px;
+}
+
+.error {
+	font-weight: bold;
+	color: #ff0000;
 }
 
 fieldset {
